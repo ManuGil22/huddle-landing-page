@@ -4,9 +4,13 @@
 }
 
 .App {
-    background-image: url('../images/bg-desktop.svg'), linear-gradient(var(--background-color), var(--background-color));
+    background-image: url('./images/bg-desktop.svg'), linear-gradient(var(--background-color), var(--background-color));
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     width: 100vw;
     height: 100vh;
+}
+
+.main-container {
+    padding: 80px;
 }
