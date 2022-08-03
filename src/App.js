@@ -16,6 +16,11 @@ function App() {
         <img src={logo} alt='logo'></img>
         <div className='main-container'>
           <img className='design' src={design} alt='design'></img>
+          <div className='description-container'>
+            <h2>Build The Community Your Fans Will Love</h2>
+            <p className='description'>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+             Create connections with your users as you engage in genuine discussion.</p>
+          </div>
         </div>
       </div>
     </div>
